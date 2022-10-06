@@ -1,0 +1,7 @@
+print("Introduce la cantidad de dinero que deseas invertir")
+cantidad = int(input())
+print("Introduce el interes porcentual anual")
+interes = int(input())
+print("introduce el número de años")
+years = int(input())
+print("El capital obtenido: " + str(round(cantidad * (interes / 100 + 1) ** years, 2)))

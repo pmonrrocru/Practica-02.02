@@ -1,0 +1,5 @@
+print("escribe tu nombre")
+nombre = str(input())
+print("Escribe un número entero")
+numero = int(input())
+print((nombre + "\n") * int(numero))
